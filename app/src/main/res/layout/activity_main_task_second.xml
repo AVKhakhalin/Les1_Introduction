@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@color/blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_text_task_second"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:inputType="text"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/Red"
+        android:ems="11"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/Red"
+        android:gravity="center"
+        android:ems="11"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:inputType="phone"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/Red"
+        android:gravity="center"
+        android:ems="11"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:inputType="number"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/Red"
+        android:gravity="center"
+        android:ems="11"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:inputType="textPassword"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/Red"
+        android:gravity="center"
+        android:ems="11"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:inputType="textEmailAddress"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/Red"
+        android:gravity="center"
+        android:ems="11"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:inputType="numberPassword"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/Red"
+        android:gravity="center"
+        android:ems="11"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:inputType="date"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/Red"
+        android:gravity="center"
+        android:ems="11"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:inputType="datetime"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/Red"
+        android:gravity="center"
+        android:ems="11"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:inputType="none"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/Red"
+        android:gravity="center"
+        android:ems="11"/>
+
+</LinearLayout>
