@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Introduction">
 <!--        <activity android:name=".MainActivity"> -->
-        <activity android:name=".MainActivity_TaskSecond">
+<!--        <activity android:name=".MainActivity_TaskSecond"> -->
+        <activity android:name=".MainActivity_TaskThird">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
